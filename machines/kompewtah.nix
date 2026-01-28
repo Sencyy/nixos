@@ -14,7 +14,6 @@
 
   services.actual.enable = true;
 
-  gaming.endfield.enable = true;
 
 
 }

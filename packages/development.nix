@@ -6,7 +6,7 @@
     go
     lazygit
     git
-    python
+    # python
     uv
     rustup
     ansible
