@@ -1,4 +1,4 @@
-{ pkgs, external ... }:
+{ pkgs, ... }:
 {
   imports = [ ../core.nix ];
 

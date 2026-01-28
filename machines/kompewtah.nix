@@ -1,8 +1,8 @@
-{ pkgs, external ... }:
+{ pkgs, ... }:
 {
   imports = [
-    ./MachineTypes/desktop.nix
-    ./packages/gaming.nix
+    ../MachineTypes/desktop.nix
+    ../packages/gaming.nix
   ];
 
   services.desktopManager.plasma6.enable = true;
@@ -13,6 +13,8 @@
   services.nextjs-ollama-llm-ui.enable = true;
 
   services.actual.enable = true;
+
+  gaming.endfield.enable = true;
 
 
 }
