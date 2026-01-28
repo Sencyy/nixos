@@ -1,26 +1,17 @@
 { pkgs, ... }:
 {
-  imports = [ ../core.nix ];
+  imports = [ 
+    ../core.nix
+    ../packages/development.nix
+  ];
 
-  # boot.kernelPackages = pkgs.linuxPackages_zen;
+  # boot.kernelPackages = pkgs.linuxPackages_zen; gotta enable it later, but it kinda sucks cuz need to build the kernel
 
   services.displayManager.ly.enable = true;
 
   services.tailscale.enable = true;
 
   environment.systemPackages = with pkgs; [
-    # Development tools
-    git
-    go
-    vscode
-    lazygit
-    dotnet-sdk_10
-    vim
-    fastfetch
-
-    # Automation
-    ansible
-
     #Core system utilities
     eza
     bat
