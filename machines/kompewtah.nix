@@ -14,6 +14,6 @@
 
   services.actual.enable = true;
 
-
+  services.hardware.openrgb.enable = true;
 
 }

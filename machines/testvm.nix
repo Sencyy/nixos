@@ -1,9 +1,10 @@
 { pkgs, ... }:
 {
-  imports = [ ../MachineTypes/desktop.nix ];
+  imports = [ 
+    ../MachineTypes/desktop.nix
+    ../packages/desktops/sway.nix
+     ];
 
-  services.xserver.enable = true;
-  services.xserver.desktopManager.mate.enable = true;
 
 
 }

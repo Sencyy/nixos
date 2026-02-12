@@ -1,0 +1,15 @@
+[user]
+	name = Sencyy
+	email = sencyy@protonmail.com
+	signingkey = /home/hanako/.ssh/id_ed25519.pub
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[url "https://invent.kde.org/"]
+	insteadOf = kde:
+[url "ssh://git@invent.kde.org/"]
+	pushInsteadOf = kde:
+[init]
+        defaultBranch = main
+
