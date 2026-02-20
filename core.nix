@@ -20,12 +20,13 @@
 
   # Network
   networking.networkmanager.enable = true;
-
+	
+	# Users ( something tells me this should be handled by home-manager already )
   users.users.hanako = {
     isNormalUser = true;
     extraGroups = [ "wheel" ];
     shell = pkgs.zsh;
-    initialPassword = "password"; # TODO: Use a real hashed passwd here
+    hashedPassword = "$y$j9T$7ON/17gkWqD9Hexro3lWY.$BHzzrxfbbHCiacuNr9sD5R6oMhgU2Pk9vmi8rClUKI7"; # TODO: Use a real hashed passwd here
   };
 
   # Shared Programs
