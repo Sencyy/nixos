@@ -10,6 +10,8 @@
     uv
     rustup
     ansible
+
+    vim
   ];
 
 }
