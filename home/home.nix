@@ -37,13 +37,34 @@ in
 
     # Dotfiles
     home.file = {
-	    ".bashrc".source = ./dotfiles/.bashrc;
-      ".gitconfig".source = ./dotfiles/.gitconfig;
-	    ".vimrc".source = ./dotfiles/.vimrc;
-	    ".config/sway/config".source = ./dotfiles/sway;
-	    ".config/i3status/config".source = ./dotfiles/i3status;
-	    ".config/foot/foot.ini".source = ./dotfiles/foot.ini;
-	    ".config/gammastep/config.ini".source = ./dotfiles/gammastep; 
+	    ".bashrc" = {
+	    	force = true;
+	    	source = ./dotfiles/.bashrc;
+	    };
+      	    ".gitconfig" = {
+      	    	force = true;
+      	    	source = ./dotfiles/.gitconfig;
+      	    };
+	    ".vimrc" = {
+	    	force = true;
+	    	source = ./dotfiles/.vimrc;
+	    };
+	    ".config/sway/config"= {
+		force = true;
+	    	source = ./dotfiles/sway;
+	    };
+	    ".config/i3status/config" = {
+	    	force = true;
+	    	source = ./dotfiles/i3status;
+	    };
+	    ".config/foot/foot.ini" = {
+		force = true;
+	    	source = ./dotfiles/foot.ini;
+	    };
+	    ".config/gammastep/config.ini" = {
+	    	force = true;
+	    	source = ./dotfiles/gammastep;
+	    } ;
     };
 
 
