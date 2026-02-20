@@ -1,13 +1,11 @@
 { pkgs, ... }:
 {
   imports = [
-    ../MachineTypes/desktop.nix
-    ../packages/gaming.nix
-    ../desktops/sway.nix # Use the sway window manager
+    ./hardware-configuration.nix
+    ../../MachineTypes/desktop.nix
+    ../../packages/gaming.nix
+    ../../packages/desktops/sway.nix # Use the sway window manager
   ];
-
-  networking.wireless.enable = true;
-
 
   # Background services
   services.ollama.enable = true;
