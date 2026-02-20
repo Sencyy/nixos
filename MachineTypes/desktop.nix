@@ -40,7 +40,7 @@ in
     bat
   
     # Daily usage
-    librewolf-bin
+    librewolf
     vesktop
 
     # Productivity
