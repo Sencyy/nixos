@@ -6,6 +6,8 @@
     ../desktops/sway.nix # Use the sway window manager
   ];
 
+  networking.wireless.enable = true;
+
 
   # Background services
   services.ollama.enable = true;
