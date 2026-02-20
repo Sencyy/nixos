@@ -12,11 +12,11 @@ in
     
   ];
 
-  # boot.kernelPackages = pkgs.linuxPackages_zen; gotta enable it later, but it kinda sucks cuz need to build the kernel
+  boot.kernelPackages = pkgs.linuxPackages_zen;
 
   services.displayManager.ly.enable = true;
 
-  services.tailscale.enable = true;
+  # services.tailscale.enable = true; not needed for now
 
   services.flatpak.enable = true;
   services.flatpak.update.onActivation = true;
