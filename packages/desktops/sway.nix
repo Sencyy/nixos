@@ -18,6 +18,7 @@
     # Window manager commons TODO: move to separate package
     gammastep
     mako
+		rofi
   ];
 
 
