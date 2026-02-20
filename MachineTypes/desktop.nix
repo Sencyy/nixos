@@ -42,11 +42,17 @@ in
     # Daily usage
     librewolf-bin
     vesktop
+
+    # Productivity
     thunderbird
+    onlyoffice-desktopeditors
     
     # Multimedia
     mpv
     gpodder
+
+    # Custom cursors
+    bibata-cursors
 
   ];
 }
