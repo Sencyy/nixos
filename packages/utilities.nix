@@ -4,6 +4,7 @@
 		file
 		tmux
 		parallel
-		
+		tree	
 	];
 }
+
