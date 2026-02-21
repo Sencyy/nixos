@@ -28,6 +28,7 @@ in
 	sxiv = "nsxiv";
 	tmpsh = "podman ruin --volume $(pwd):/directory --rm -it";
 	qr = "qrencode -t UTF8";
+				lg = "lazygit";
 
 	# Directory management aliases
 	cp = "cp -v";
