@@ -18,24 +18,24 @@ in
     programs.zsh = {
       enable = true;
       shellAliases = {
-	nano = "nano -i";
-	stow = "stow -t ~/";
-	ls = "eza -l --icons --git";
-	ll = "eza -la --icons --git";
-	ip = "ip -c";
-	cat = "bat";
-	grep = "rg";
-	sxiv = "nsxiv";
-	tmpsh = "podman ruin --volume $(pwd):/directory --rm -it";
-	qr = "qrencode -t UTF8";
+				nano = "nano -i";
+				stow = "stow -t ~/";
+				ls = "eza -l --icons --git";
+				ll = "eza -la --icons --git";
+				ip = "ip -c";
+				cat = "bat";
+				grep = "rg";
+				sxiv = "nsxiv";
+				tmpsh = "podman ruin --volume $(pwd):/directory --rm -it";
+				qr = "qrencode -t UTF8";
 				lg = "lazygit";
 
-	# Directory management aliases
-	cp = "cp -v";
-	mv = "mv -v";
-	rm = "rm -v";
-	mkdir = "mkdir -pv";
-	rmdir = "rmdir -v";
+				# Directory management aliases
+				cp = "cp -v";
+				mv = "mv -v";
+				rm = "rm -v";
+				mkdir = "mkdir -pv";
+				rmdir = "rmdir -v";
       };
       oh-my-zsh = {
         enable = true;
