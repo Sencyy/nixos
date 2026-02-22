@@ -38,6 +38,7 @@ in
     #Core system utilities
     eza
     bat
+		distrobox # Sometimes things don't go as one would expect and they now need to face another distribution's shell
   
     # Daily usage
     librewolf
