@@ -4,9 +4,9 @@
 		file
 		tmux
 		parallel
-		tree	
 		tree
 		pciutils
+		btop	
 	];
 }
 
