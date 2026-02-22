@@ -5,6 +5,8 @@
 		tmux
 		parallel
 		tree	
+		tree
+		pciutils
 	];
 }
 
