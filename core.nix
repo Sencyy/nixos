@@ -41,6 +41,14 @@
   nixpkgs.config.allowUnfree = true;
   programs.zsh.enable = true;
 
+	# Running dinamically linked executables
+	programs.nix-ld = {
+		enable = true;
+		libraries = with pkgs; [
+			# Libraries for that these binaries depend
+		];
+	};
+
   # Containerization
   virtualisation.podman.enable = true;
 
