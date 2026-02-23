@@ -6,6 +6,7 @@ in
 {
   imports = [ 
     ../core.nix
+		../packages/utilities.nix
     ../packages/development.nix
     ../home/home.nix
     flatpak.nixosModules.nix-flatpak
