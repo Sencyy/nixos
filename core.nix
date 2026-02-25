@@ -50,7 +50,10 @@
 	};
 
   # Containerization
-  virtualisation.podman.enable = true;
+  virtualisation.podman = {
+		enable = true;
+		dockerCompat = true;
+	};
 
   # All systems using the same version (might be a bad idea idk)
   system.stateVersion = "25.11";
