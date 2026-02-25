@@ -4,7 +4,7 @@
     ./hardware-configuration.nix
     ../../MachineTypes/desktop.nix
     ../../packages/gaming.nix
-    ../../packages/desktops/sway.nix # Use the sway window manager
+		../../packages/desktops/plasma.nix # KDE Pasma desktop
   ];
 
   # Background services
