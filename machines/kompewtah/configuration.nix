@@ -7,6 +7,9 @@
 		../../packages/desktops/plasma.nix # KDE Pasma desktop
   ];
 
+	# The name of the host
+	networking.hostName = "kompewtah";
+
   # Background services
   services.ollama.enable = true;
   services.ollama.acceleration = "vulkan";
