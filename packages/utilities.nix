@@ -10,6 +10,7 @@
 		tree
 		pciutils
 		btop	
+		wget
 	];
 }
 
