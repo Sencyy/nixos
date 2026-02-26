@@ -47,6 +47,7 @@ in
     # Productivity
     thunderbird
     onlyoffice-desktopeditors
+		nextcloud-client
     
     # Multimedia
     mpv
