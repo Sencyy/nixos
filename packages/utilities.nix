@@ -1,6 +1,9 @@
 { pkgs, ... }:
 {
 	environment.systemPackages = with pkgs; [
+		eza
+		bat
+		ripgrep
 		file
 		tmux
 		parallel
