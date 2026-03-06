@@ -15,6 +15,11 @@ config = {
     pkgs.openttd
   ];
   programs.steam.enable = true;
+
+	# Install games using flatpak
+	# Only works if services.flatpak.enable is set to true
+	services.flatpak.packages = mkIf services.flatpak.enable [
+	];
 };
 
 
