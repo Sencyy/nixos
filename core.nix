@@ -55,6 +55,10 @@
 		dockerCompat = true;
 	};
 
+	environment.systemPackages = with pkgs [
+		podman-compose
+	];
+
   # All systems using the same version (might be a bad idea idk)
   system.stateVersion = "25.11";
 }
