@@ -7,5 +7,8 @@
     kdePackages.kate
     kdePackages.partitionmanager
   ];
+	
+	# Enabling KDE Connect
+	programs.kdeconnect.enable
 
 }
