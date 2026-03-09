@@ -9,6 +9,6 @@
   ];
 	
 	# Enabling KDE Connect
-	programs.kdeconnect.enable
+	programs.kdeconnect.enable = true;
 
 }
