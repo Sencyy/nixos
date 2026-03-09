@@ -48,6 +48,7 @@ in
     thunderbird
     onlyoffice-desktopeditors
 		nextcloud-client
+		xournalpp
     
     # Multimedia
     mpv
