@@ -14,6 +14,11 @@
   services.ollama.enable = true;
   services.ollama.acceleration = "vulkan";
   services.nextjs-ollama-llm-ui.enable = true;
+	services.sunshine = {
+		enable = true;
+		capSysAdmin = true;
+		openFirewall = true;
+	};
 
 
   services.hardware.openrgb.enable = true;
